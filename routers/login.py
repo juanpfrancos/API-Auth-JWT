@@ -9,7 +9,7 @@ from config import db_client, crypt_context, JWT_SECRET, JWT_ALGORITHM
 ACCESS_TOKEN_DURATION = 4
 
 router = APIRouter(prefix="/login",
-                   tags=["login"],
+                   tags=["Login"],
                    responses={status.HTTP_404_NOT_FOUND: {"message": "Not found"}})
 
 

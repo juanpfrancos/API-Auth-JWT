@@ -5,7 +5,7 @@ from config import db_client, crypt_context
 
 
 router = APIRouter(prefix="/signup",
-   tags=["User"],
+   tags=["SignUp"],
    responses={status.HTTP_404_NOT_FOUND: {"message": "No encontrado"}})
 
 

@@ -12,7 +12,7 @@ ACCESS_TOKEN_DURATION = 4
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 router = APIRouter(prefix="/check",
-                   tags=["check"],
+                   tags=["Check"],
                    responses={status.HTTP_404_NOT_FOUND: {"message": "No encontrado"}})
 
 
